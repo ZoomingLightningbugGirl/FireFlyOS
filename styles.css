@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+#lander h2 {
+    text-align: right;
+}
+#lander {
+    display:block;
+}
+#experience {
+    transition-duration: 2s;
+}
+#experience div {
+    display:inline-block;
+    width:30vw;
+    padding:3vw;
+}
+nav li {
+    list-style: none;
+    display:inline-block;
+}
