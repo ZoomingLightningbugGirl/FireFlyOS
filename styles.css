@@ -1,5 +1,5 @@
 h1 {
-    text-align: center;
+    display:inline-block;
 }
 #lander h2 {
     text-align: right;
@@ -15,7 +15,18 @@ h1 {
     width:30vw;
     padding:3vw;
 }
+nav {
+    display:inline-flex;
+    align-self: right;
+    margin-left:20vw;
+}
 nav li {
     list-style: none;
-    display:inline-block;
+    align-self: right;
+    display:inline-flex;
+    margin: 5px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 1rem;
 }
